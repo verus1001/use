@@ -1,11 +1,10 @@
 ####################################
 # 创建者：v2rayse.com
-# 客户端：Clash.Meta
-# 创建时间：2024-01-15 22:16:13
+# 客户端：Clash
+# 创建时间：2024-01-16 21:17:01
 # 使用模版：V2RaySE 默认模版
-# 节点数量：13
+# 节点数量：86
 ####################################
-# !!当前配置文件请使用基于 Clash.Meta 内核程序
 mixed-port: 7890
 allow-lan: true
 log-level: info
@@ -86,130 +85,641 @@ dns:
       - 0.0.0.0/32
 
 proxies:
-  - {"name":"worker-withered-river-e41b.1bbt8sxd.workers.dev","type":"vless","server":"www.4399.com","port":8880,"uuid":"af1cba0e-6de5-4973-8eb0-c73732c7b9b8","tls":false,"servername":"worker-withered-river-e41b.1bbt8sxd.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048"}}
-  - {"name":"verus.a1440585422.workers.dev","type":"vless","server":"www.visa.com","port":8880,"uuid":"a6b9501e-0376-492e-be09-feedc7633c42","tls":false,"servername":"verus.a1440585422.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048"}}
-  - {"name":"worker-morning-field-dd88.44tuy5qq-b7a.workers.dev","type":"vless","server":"www.bing.com","port":8880,"uuid":"1a5fec2b-cc10-4026-889b-3c172df94eea","tls":false,"servername":"worker-morning-field-dd88.44tuy5qq-b7a.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048"}}
-  - {"name":"worker-muddy-pine-128e.44tuy5qq.workers.dev","type":"vless","server":"www.so.com","port":8880,"uuid":"bdf81467-f3c0-4abc-ab4f-0b2873d33fdd","tls":false,"servername":"worker-muddy-pine-128e.44tuy5qq.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048"}}
-  - {"name":"worker-misty-firefly-7ad5.8o0wqvsk.workers.dev","type":"vless","server":"www.qq.com","port":8880,"uuid":"6225efd1-7675-48ff-b19e-7b2a59ee6418","tls":false,"servername":"worker-misty-firefly-7ad5.8o0wqvsk.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048"}}
-  - {"name":"worker-odd-sun-0498.na1-v33q.workers.dev","type":"vless","server":"www.ifeng.com","port":8880,"uuid":"cfd923a8-2af0-454b-9f1f-80ad07d48550","tls":false,"servername":"worker-odd-sun-0498.na1-v33q.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048"}}
-  - {"name":"worker-shrill-term-9c1e.ssrhqtck.workers.dev","type":"vless","server":"www.bing.com","port":8880,"uuid":"49281036-2b34-478d-b68a-4a1cea222cae","tls":false,"servername":"worker-shrill-term-9c1e.ssrhqtck.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048"}}
-  - {"name":"worker-fancy-sunset-9b78.k56bjd90.workers.dev","type":"vless","server":"www.bilibili.com","port":8880,"uuid":"b2304602-f642-46c9-bdb3-a0e7b9ecbbf9","tls":false,"servername":"worker-fancy-sunset-9b78.k56bjd90.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048"}}
-  - {"name":"worker-holy-waterfall-6a2f.7u7qtv3n.workers.dev","type":"vless","server":"www.qidian.com","port":8880,"uuid":"c5a4d66a-2714-4d70-8d09-8b74ab341442","tls":false,"servername":"worker-holy-waterfall-6a2f.7u7qtv3n.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048"}}
-  - {"name":"worker-orange-field-d5c6.uw-uef2k.workers.dev","type":"vless","server":"www.2345.com","port":8880,"uuid":"36f77539-adfe-405a-be05-4d4a268ee1f4","tls":false,"servername":"worker-orange-field-d5c6.uw-uef2k.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048"}}
-  - {"name":"worker-small-star-5886.s32r5x96.workers.dev","type":"vless","server":"www.1905.com","port":8880,"uuid":"4538816c-d08c-4fef-92cc-f7de9231c724","tls":false,"servername":"worker-small-star-5886.s32r5x96.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048"}}
-  - {"name":"worker-wispy-art-4a4f.zz4qb6-6.workers.dev","type":"vless","server":"www.zhihu.com","port":8880,"uuid":"5c25b5e1-5ef2-460d-b5e1-849cd85d3e49","tls":false,"servername":"worker-wispy-art-4a4f.zz4qb6-6.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048"}}
-  - {"name":"worker-morning-frost-9100.5uxbq11j.workers.dev","type":"vless","server":"www.ximalaya.com","port":8880,"uuid":"3b2a1645-0037-4adb-b336-c00bfaeb4ac3","tls":false,"servername":"worker-morning-frost-9100.5uxbq11j.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048"}}
+  - {"name":"🐔 背带裤-1","type":"trojan","server":"104.16.192.1","port":443,"udp":true,"password":"0ab6c98dae3b48e8b9c4a776b6c9c19a","sni":"sherasheba.com","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"6b777a91","headers":{"host":"sherasheba.com"}}}
+  - {"name":"🐔 背带裤-2","type":"trojan","server":"104.16.192.126","port":443,"udp":true,"password":"b0b861c2c85346a389b9e95769c3cba4","sni":"jobscareerfortoday.com","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"6b777a91","headers":{"host":"jobscareerfortoday.com"}}}
+  - {"name":"🐔 背带裤-3","type":"trojan","server":"104.16.192.4","port":443,"udp":true,"password":"ce8b8b30ebba45f2a38dd608b85e8628","sni":"jobscareertoday.com","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"6b777a91","headers":{"host":"jobscareertoday.com"}}}
+  - {"name":"🐔 背带裤-4","type":"trojan","server":"104.16.192.6","port":443,"udp":true,"password":"f0eb8c92ce8946aaba856569cff1a16b","sni":"jobscareerfortoday.com","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"6b777a91","headers":{"host":"jobscareerfortoday.com"}}}
+  - {"name":"🐔 背带裤-5","type":"trojan","server":"104.19.171.36","port":443,"udp":true,"password":"669d0ac7b5b64ebbb1abb75d5d540a5c","sni":"jobscareertoday.com","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"6b777a91","headers":{"host":"jobscareertoday.com"}}}
+  - {"name":"🐔 背带裤-6","type":"trojan","server":"104.19.171.1","port":443,"udp":true,"password":"e8105dfd24414268b6c7652c63731097","sni":"jobscareerforstudent.com","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"6b777a91","headers":{"host":"jobscareerforstudent.com"}}}
+  - {"name":"🐔 背带裤-7","type":"trojan","server":"104.19.171.2","port":443,"udp":true,"password":"984e400bf5d541b7b0815913fe0c432a","sni":"jobscareertoday.com","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"6b777a91","headers":{"host":"jobscareertoday.com"}}}
+  - {"name":"🐔 背带裤-8","type":"trojan","server":"104.19.171.3","port":443,"udp":true,"password":"f0eb8c92ce8946aaba856569cff1a16b","sni":"sherasheba.com","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"6b777a91","headers":{"host":"sherasheba.com"}}}
+  - {"name":"🐔 背带裤-9","type":"trojan","server":"104.19.171.4","port":443,"udp":true,"password":"dba20dcb635e430fa4d3bfc303a149d2","sni":"jobscareertoday.com","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"6b777a91","headers":{"host":"jobscareertoday.com"}}}
+  - {"name":"🐔 背带裤-10","type":"trojan","server":"104.19.171.5","port":443,"udp":true,"password":"cb1f26aa437d4bfa9b841d28503ce8cc","sni":"jobscareerforlawyers.com","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"6b777a91","headers":{"host":"jobscareerforlawyers.com"}}}
+  - {"name":"🐔 背带裤-11","type":"trojan","server":"104.19.171.6","port":443,"udp":true,"password":"f0eb8c92ce8946aaba856569cff1a16b","sni":"jobsapplyworld.com","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"6b777a91","headers":{"host":"jobsapplyworld.com"}}}
+  - {"name":"🐔 背带裤-12","type":"trojan","server":"104.19.171.7","port":443,"udp":true,"password":"984e400bf5d541b7b0815913fe0c432a","sni":"jobscareerforstudent.com","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"6b777a91","headers":{"host":"jobscareerforstudent.com"}}}
+  - {"name":"🐔 背带裤-13","type":"trojan","server":"104.19.171.8","port":443,"udp":true,"password":"0ab6c98dae3b48e8b9c4a776b6c9c19a","sni":"jobscareerforlawyers.com","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"6b777a91","headers":{"host":"jobscareerforlawyers.com"}}}
+  - {"name":"🐔 背带裤-14","type":"trojan","server":"104.19.171.9","port":443,"udp":true,"password":"984e400bf5d541b7b0815913fe0c432a","sni":"jobscareerfortoday.com","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"6b777a91","headers":{"host":"jobscareerfortoday.com"}}}
+  - {"name":"🐔 背带裤-15","type":"trojan","server":"104.16.159.112","port":443,"udp":true,"password":"4aec4e7f8cf8454ea4613659822e1a61","sni":"jobscareertoday.com","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"6b777a91","headers":{"host":"jobscareertoday.com"}}}
+  - {"name":"🐔 背带裤-16","type":"trojan","server":"104.16.159.1","port":443,"udp":true,"password":"242a3d8eee5e4ed1a6bfa4141d549a25","sni":"jobsapplyworld.com","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"6b777a91","headers":{"host":"jobsapplyworld.com"}}}
+  - {"name":"🐔 背带裤-17","type":"trojan","server":"104.16.192.178","port":443,"udp":true,"password":"2cba4104747d49d18319e5ade1b93ab5","sni":"jobsapplyworld.com","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"6b777a91","headers":{"host":"jobsapplyworld.com"}}}
+  - {"name":"🐔 背带裤-18","type":"trojan","server":"104.16.159.2","port":443,"udp":true,"password":"cb1f26aa437d4bfa9b841d28503ce8cc","sni":"jobscareerforstudent.com","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"6b777a91","headers":{"host":"jobscareerforstudent.com"}}}
+  - {"name":"🐔 背带裤-19","type":"trojan","server":"104.16.159.3","port":443,"udp":true,"password":"dba20dcb635e430fa4d3bfc303a149d2","sni":"bangladeshipatri.com","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"6b777a91","headers":{"host":"bangladeshipatri.com"}}}
+  - {"name":"🐔 背带裤-20","type":"trojan","server":"104.16.159.4","port":443,"udp":true,"password":"b4e8771997c94732acbc9ec4d19c2589","sni":"bangladeshipatri.com","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"6b777a91","headers":{"host":"bangladeshipatri.com"}}}
+  - {"name":"🐔 背带裤-21","type":"trojan","server":"104.16.159.5","port":443,"udp":true,"password":"984e400bf5d541b7b0815913fe0c432a","sni":"bangladeshipatri.com","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"6b777a91","headers":{"host":"bangladeshipatri.com"}}}
+  - {"name":"🐔 背带裤-22","type":"trojan","server":"104.16.159.6","port":443,"udp":true,"password":"669d0ac7b5b64ebbb1abb75d5d540a5c","sni":"bangladeshipatri.com","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"6b777a91","headers":{"host":"bangladeshipatri.com"}}}
+  - {"name":"🐔 背带裤-23","type":"trojan","server":"104.16.159.7","port":443,"udp":true,"password":"4732adfa16c6450bbef87264e41332db","sni":"bangladeshipatri.com","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"6b777a91","headers":{"host":"bangladeshipatri.com"}}}
+  - {"name":"🐔 背带裤-24","type":"trojan","server":"104.16.159.8","port":443,"udp":true,"password":"f0eb8c92ce8946aaba856569cff1a16b","sni":"bangladeshipatri.com","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"6b777a91","headers":{"host":"bangladeshipatri.com"}}}
+  - {"name":"🐔 背带裤-25","type":"trojan","server":"104.16.159.9","port":443,"udp":true,"password":"ce8b8b30ebba45f2a38dd608b85e8628","sni":"bangladeshipatri.com","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"6b777a91","headers":{"host":"bangladeshipatri.com"}}}
+  - {"name":"🐔 背带裤-26","type":"trojan","server":"104.16.159.10","port":443,"udp":true,"password":"4aec4e7f8cf8454ea4613659822e1a61","sni":"bangladeshipatri.com","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"6b777a91","headers":{"host":"bangladeshipatri.com"}}}
+  - {"name":"🐔 背带裤-27","type":"trojan","server":"104.17.147.77","port":443,"udp":true,"password":"71409d3e488548e8bb076d229778f008","sni":"bangladeshipatri.com","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"6b777a91","headers":{"host":"bangladeshipatri.com"}}}
+  - {"name":"🐔 背带裤-28","type":"trojan","server":"104.17.147.1","port":443,"udp":true,"password":"0ab6c98dae3b48e8b9c4a776b6c9c19a","sni":"jobscareerforstudent.com","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"6b777a91","headers":{"host":"jobscareerforstudent.com"}}}
+  - {"name":"🐔 背带裤-29","type":"trojan","server":"104.17.147.2","port":443,"udp":true,"password":"71409d3e488548e8bb076d229778f008","sni":"jobscareerfortoday.com","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"6b777a91","headers":{"host":"jobscareerfortoday.com"}}}
+  - {"name":"🐔 背带裤-30","type":"trojan","server":"104.17.147.3","port":443,"udp":true,"password":"669d0ac7b5b64ebbb1abb75d5d540a5c","sni":"jobscareerfortoday.com","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"6b777a91","headers":{"host":"jobscareerfortoday.com"}}}
+  - {"name":"🐔 背带裤-31","type":"trojan","server":"104.17.147.4","port":443,"udp":true,"password":"4732adfa16c6450bbef87264e41332db","sni":"jobscareertoday.com","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"6b777a91","headers":{"host":"jobscareertoday.com"}}}
+  - {"name":"🐔 背带裤-32","type":"trojan","server":"104.17.147.5","port":443,"udp":true,"password":"2e3562a819634de686ade78e434c0963","sni":"jobscareertoday.com","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"6b777a91","headers":{"host":"jobscareertoday.com"}}}
+  - {"name":"🐔 背带裤-34","type":"trojan","server":"104.17.147.6","port":443,"udp":true,"password":"dba20dcb635e430fa4d3bfc303a149d2","sni":"jobsapplyworld.com","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"6b777a91","headers":{"host":"jobsapplyworld.com"}}}
+  - {"name":"🐔 背带裤-35","type":"trojan","server":"104.17.147.7","port":443,"udp":true,"password":"71409d3e488548e8bb076d229778f008","sni":"jobscareertoday.com","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"6b777a91","headers":{"host":"jobscareertoday.com"}}}
+  - {"name":"🐔 背带裤-36","type":"trojan","server":"104.17.147.8","port":443,"udp":true,"password":"4aec4e7f8cf8454ea4613659822e1a61","sni":"jobscareerforstudent.com","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"6b777a91","headers":{"host":"jobscareerforstudent.com"}}}
+  - {"name":"🐔 背带裤-37","type":"trojan","server":"104.17.147.9","port":443,"udp":true,"password":"4aec4e7f8cf8454ea4613659822e1a61","sni":"jobscareerfortoday.com","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"6b777a91","headers":{"host":"jobscareerfortoday.com"}}}
+  - {"name":"🐔 背带裤-38","type":"trojan","server":"104.17.147.10","port":443,"udp":true,"password":"669d0ac7b5b64ebbb1abb75d5d540a5c","sni":"jobsapplyworld.com","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"6b777a91","headers":{"host":"jobsapplyworld.com"}}}
+  - {"name":"🐔 背带裤-39","type":"trojan","server":"104.17.147.11","port":443,"udp":true,"password":"0ab6c98dae3b48e8b9c4a776b6c9c19a","sni":"jobscareerfortoday.com","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"6b777a91","headers":{"host":"jobscareerfortoday.com"}}}
+  - {"name":"🐔 背带裤-40","type":"trojan","server":"104.17.61.1","port":443,"udp":true,"password":"2e3562a819634de686ade78e434c0963","sni":"jobsapplyworld.com","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"6b777a91","headers":{"host":"jobsapplyworld.com"}}}
+  - {"name":"🐔 背带裤-41","type":"trojan","server":"104.17.61.2","port":443,"udp":true,"password":"dba20dcb635e430fa4d3bfc303a149d2","sni":"jobscareerforstudent.com","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"6b777a91","headers":{"host":"jobscareerforstudent.com"}}}
+  - {"name":"🐔 背带裤-42","type":"trojan","server":"104.17.61.3","port":443,"udp":true,"password":"4732adfa16c6450bbef87264e41332db","sni":"jobsapplyworld.com","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"6b777a91","headers":{"host":"jobsapplyworld.com"}}}
+  - {"name":"🐔 背带裤-43","type":"trojan","server":"104.17.61.4","port":443,"udp":true,"password":"984e400bf5d541b7b0815913fe0c432a","sni":"jobsapplyworld.com","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"6b777a91","headers":{"host":"jobsapplyworld.com"}}}
+  - {"name":"🐔 背带裤-45","type":"trojan","server":"104.17.61.5","port":443,"udp":true,"password":"2cba4104747d49d18319e5ade1b93ab5","sni":"jobscareerfortoday.com","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"6b777a91","headers":{"host":"jobscareerfortoday.com"}}}
+  - {"name":"🐔 背带裤-46","type":"trojan","server":"104.17.61.6","port":443,"udp":true,"password":"f0eb8c92ce8946aaba856569cff1a16b","sni":"jobscareerforstudent.com","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"6b777a91","headers":{"host":"jobscareerforstudent.com"}}}
+  - {"name":"🐔 背带裤-47","type":"trojan","server":"104.17.61.7","port":443,"udp":true,"password":"4732adfa16c6450bbef87264e41332db","sni":"jobscareerfortoday.com","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"6b777a91","headers":{"host":"jobscareerfortoday.com"}}}
+  - {"name":"🐔 背带裤-48","type":"trojan","server":"104.17.61.8","port":443,"udp":true,"password":"b0b861c2c85346a389b9e95769c3cba4","sni":"jobsapplyworld.com","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"6b777a91","headers":{"host":"jobsapplyworld.com"}}}
+  - {"name":"🐔 背带裤-49","type":"trojan","server":"104.17.61.9","port":443,"udp":true,"password":"dba20dcb635e430fa4d3bfc303a149d2","sni":"jobscareerforlawyers.com","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"6b777a91","headers":{"host":"jobscareerforlawyers.com"}}}
+  - {"name":"🐔 背带裤-50","type":"trojan","server":"104.17.61.10","port":443,"udp":true,"password":"4aec4e7f8cf8454ea4613659822e1a61","sni":"jobsapplyworld.com","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"6b777a91","headers":{"host":"jobsapplyworld.com"}}}
+  - {"name":"🐔 背带裤-51","type":"trojan","server":"198.41.220.83","port":443,"udp":true,"password":"e8105dfd24414268b6c7652c63731097","sni":"jobscareertoday.com","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"6b777a91","headers":{"host":"jobscareertoday.com"}}}
+  - {"name":"🐔 背带裤-52","type":"trojan","server":"198.41.220.2","port":443,"udp":true,"password":"242a3d8eee5e4ed1a6bfa4141d549a25","sni":"jobscareerfortoday.com","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"6b777a91","headers":{"host":"jobscareerfortoday.com"}}}
+  - {"name":"🐔 背带裤-53","type":"trojan","server":"198.41.220.3","port":443,"udp":true,"password":"b4e8771997c94732acbc9ec4d19c2589","sni":"jobscareertoday.com","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"6b777a91","headers":{"host":"jobscareertoday.com"}}}
+  - {"name":"🐔 背带裤-54","type":"trojan","server":"198.41.220.4","port":443,"udp":true,"password":"71409d3e488548e8bb076d229778f008","sni":"jobscareerforlawyers.com","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"6b777a91","headers":{"host":"jobscareerforlawyers.com"}}}
+  - {"name":"🐔 背带裤-55","type":"trojan","server":"198.41.220.5","port":443,"udp":true,"password":"cb1f26aa437d4bfa9b841d28503ce8cc","sni":"jobscareertoday.com","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"6b777a91","headers":{"host":"jobscareertoday.com"}}}
+  - {"name":"🐔 背带裤-56","type":"trojan","server":"198.41.220.8","port":443,"udp":true,"password":"b4e8771997c94732acbc9ec4d19c2589","sni":"jobscareerforstudent.com","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"6b777a91","headers":{"host":"jobscareerforstudent.com"}}}
+  - {"name":"🐔 背带裤-57","type":"trojan","server":"198.41.220.10","port":443,"udp":true,"password":"2cba4104747d49d18319e5ade1b93ab5","sni":"jobscareerforstudent.com","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"6b777a91","headers":{"host":"jobscareerforstudent.com"}}}
+  - {"name":"🐔 背带裤-58","type":"trojan","server":"198.41.220.12","port":443,"udp":true,"password":"242a3d8eee5e4ed1a6bfa4141d549a25","sni":"jobscareerforlawyers.com","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"6b777a91","headers":{"host":"jobscareerforlawyers.com"}}}
+  - {"name":"🐔 背带裤-59","type":"trojan","server":"198.41.220.14","port":443,"udp":true,"password":"b4e8771997c94732acbc9ec4d19c2589","sni":"avianrecruit.com","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"6b777a91","headers":{"host":"avianrecruit.com"}}}
+  - {"name":"🐔 背带裤-60","type":"trojan","server":"104.16.192.178","port":443,"udp":true,"password":"dba20dcb635e430fa4d3bfc303a149d2","sni":"avianrecruit.com","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"6b777a91","headers":{"host":"avianrecruit.com"}}}
+  - {"name":"🐔 背带裤-61","type":"trojan","server":"198.41.220.16","port":443,"udp":true,"password":"b0b861c2c85346a389b9e95769c3cba4","sni":"avianrecruit.com","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"6b777a91","headers":{"host":"avianrecruit.com"}}}
+  - {"name":"🐔 背带裤-62","type":"trojan","server":"198.41.220.18","port":443,"udp":true,"password":"2cba4104747d49d18319e5ade1b93ab5","sni":"avianrecruit.com","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"6b777a91","headers":{"host":"avianrecruit.com"}}}
+  - {"name":"🐔 背带裤-63","type":"trojan","server":"198.41.220.20","port":443,"udp":true,"password":"e8105dfd24414268b6c7652c63731097","sni":"avianrecruit.com","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"6b777a91","headers":{"host":"avianrecruit.com"}}}
+  - {"name":"🐔 背带裤-64","type":"trojan","server":"104.19.159.144","port":443,"udp":true,"password":"4aec4e7f8cf8454ea4613659822e1a61","sni":"avianrecruit.com","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"6b777a91","headers":{"host":"avianrecruit.com"}}}
+  - {"name":"🐔 背带裤-65","type":"trojan","server":"104.19.159.2","port":443,"udp":true,"password":"f0eb8c92ce8946aaba856569cff1a16b","sni":"avianrecruit.com","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"6b777a91","headers":{"host":"avianrecruit.com"}}}
+  - {"name":"🐔 背带裤-66","type":"trojan","server":"104.19.159.4","port":443,"udp":true,"password":"b4e8771997c94732acbc9ec4d19c2589","sni":"jobscareerforlawyers.com","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"6b777a91","headers":{"host":"jobscareerforlawyers.com"}}}
+  - {"name":"🐔 背带裤-67","type":"trojan","server":"104.19.159.6","port":443,"udp":true,"password":"b0b861c2c85346a389b9e95769c3cba4","sni":"jobscareerforstudent.com","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"6b777a91","headers":{"host":"jobscareerforstudent.com"}}}
+  - {"name":"🐔 背带裤-68","type":"trojan","server":"104.19.159.8","port":443,"udp":true,"password":"b0b861c2c85346a389b9e95769c3cba4","sni":"jobscareertoday.com","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"6b777a91","headers":{"host":"jobscareertoday.com"}}}
+  - {"name":"🐔 背带裤-69","type":"trojan","server":"104.19.159.10","port":443,"udp":true,"password":"ce8b8b30ebba45f2a38dd608b85e8628","sni":"jobscareerfortoday.com","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"6b777a91","headers":{"host":"jobscareerfortoday.com"}}}
+  - {"name":"🐔 背带裤-70","type":"trojan","server":"104.19.159.12","port":443,"udp":true,"password":"242a3d8eee5e4ed1a6bfa4141d549a25","sni":"jobscareertoday.com","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"6b777a91","headers":{"host":"jobscareertoday.com"}}}
+  - {"name":"🐔 背带裤-72","type":"trojan","server":"104.17.215.14","port":443,"udp":true,"password":"984e400bf5d541b7b0815913fe0c432a","sni":"jobscareerforlawyers.com","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"6b777a91","headers":{"host":"jobscareerforlawyers.com"}}}
+  - {"name":"🐔 背带裤-73","type":"trojan","server":"104.17.215.16","port":443,"udp":true,"password":"e8105dfd24414268b6c7652c63731097","sni":"jobsapplyworld.com","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"6b777a91","headers":{"host":"jobsapplyworld.com"}}}
+  - {"name":"🐔 背带裤-74","type":"trojan","server":"104.17.215.18","port":443,"udp":true,"password":"4732adfa16c6450bbef87264e41332db","sni":"jobscareerforstudent.com","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"6b777a91","headers":{"host":"jobscareerforstudent.com"}}}
+  - {"name":"🐔 背带裤-75","type":"trojan","server":"104.17.215.2","port":443,"udp":true,"password":"669d0ac7b5b64ebbb1abb75d5d540a5c","sni":"jobscareerforstudent.com","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"6b777a91","headers":{"host":"jobscareerforstudent.com"}}}
+  - {"name":"🐔 背带裤-76","type":"trojan","server":"104.17.215.4","port":443,"udp":true,"password":"cb1f26aa437d4bfa9b841d28503ce8cc","sni":"jobscareerfortoday.com","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"6b777a91","headers":{"host":"jobscareerfortoday.com"}}}
+  - {"name":"🐔 背带裤-77","type":"trojan","server":"104.17.215.6","port":443,"udp":true,"password":"b4e8771997c94732acbc9ec4d19c2589","sni":"jobscareerfortoday.com","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"6b777a91","headers":{"host":"jobscareerfortoday.com"}}}
+  - {"name":"🐔 背带裤-78","type":"trojan","server":"104.17.215.8","port":443,"udp":true,"password":"2cba4104747d49d18319e5ade1b93ab5","sni":"jobscareertoday.com","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"6b777a91","headers":{"host":"jobscareertoday.com"}}}
+  - {"name":"🐔 背带裤-79","type":"trojan","server":"104.16.192.155","port":443,"udp":true,"password":"e8105dfd24414268b6c7652c63731097","sni":"jobscareerfortoday.com","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"6b777a91","headers":{"host":"jobscareerfortoday.com"}}}
+  - {"name":"🐔 背带裤-80","type":"trojan","server":"104.16.192.157","port":443,"udp":true,"password":"dba20dcb635e430fa4d3bfc303a149d2","sni":"jobscareerfortoday.com","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"6b777a91","headers":{"host":"jobscareerfortoday.com"}}}
+  - {"name":"🐔 背带裤-81","type":"trojan","server":"104.16.192.158","port":443,"udp":true,"password":"f0eb8c92ce8946aaba856569cff1a16b","sni":"jobscareerforlawyers.com","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"6b777a91","headers":{"host":"jobscareerforlawyers.com"}}}
+  - {"name":"🐔 背带裤-82","type":"trojan","server":"104.16.192.145","port":443,"udp":true,"password":"669d0ac7b5b64ebbb1abb75d5d540a5c","sni":"jobscareerforlawyers.com","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"6b777a91","headers":{"host":"jobscareerforlawyers.com"}}}
+  - {"name":"🐔 背带裤-83","type":"trojan","server":"104.16.192.146","port":443,"udp":true,"password":"0ab6c98dae3b48e8b9c4a776b6c9c19a","sni":"jobscareertoday.com","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"6b777a91","headers":{"host":"jobscareertoday.com"}}}
+  - {"name":"🐔 背带裤-84","type":"trojan","server":"104.16.192.147","port":443,"udp":true,"password":"b4e8771997c94732acbc9ec4d19c2589","sni":"jobsapplyworld.com","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"6b777a91","headers":{"host":"jobsapplyworld.com"}}}
+  - {"name":"🐔 背带裤-85","type":"trojan","server":"104.16.192.148","port":443,"udp":true,"password":"2e3562a819634de686ade78e434c0963","sni":"jobscareerforstudent.com","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"6b777a91","headers":{"host":"jobscareerforstudent.com"}}}
+  - {"name":"🐔 背带裤-86","type":"trojan","server":"104.16.192.138","port":443,"udp":true,"password":"4732adfa16c6450bbef87264e41332db","sni":"jobscareerforlawyers.com","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"6b777a91","headers":{"host":"jobscareerforlawyers.com"}}}
+  - {"name":"🐔 背带裤-87","type":"trojan","server":"104.16.192.135","port":443,"udp":true,"password":"f0eb8c92ce8946aaba856569cff1a16b","sni":"jobscareertoday.com","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"6b777a91","headers":{"host":"jobscareertoday.com"}}}
+  - {"name":"🐔 背带裤-88","type":"trojan","server":"104.16.192.159","port":443,"udp":true,"password":"cb1f26aa437d4bfa9b841d28503ce8cc","sni":"jobsapplyworld.com","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"6b777a91","headers":{"host":"jobsapplyworld.com"}}}
+  - {"name":"🐔 背带裤-89","type":"trojan","server":"104.16.192.151","port":443,"udp":true,"password":"71409d3e488548e8bb076d229778f008","sni":"jobsapplyworld.com","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"6b777a91","headers":{"host":"jobsapplyworld.com"}}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - worker-withered-river-e41b.1bbt8sxd.workers.dev
-      - verus.a1440585422.workers.dev
-      - worker-morning-field-dd88.44tuy5qq-b7a.workers.dev
-      - worker-muddy-pine-128e.44tuy5qq.workers.dev
-      - worker-misty-firefly-7ad5.8o0wqvsk.workers.dev
-      - worker-odd-sun-0498.na1-v33q.workers.dev
-      - worker-shrill-term-9c1e.ssrhqtck.workers.dev
-      - worker-fancy-sunset-9b78.k56bjd90.workers.dev
-      - worker-holy-waterfall-6a2f.7u7qtv3n.workers.dev
-      - worker-orange-field-d5c6.uw-uef2k.workers.dev
-      - worker-small-star-5886.s32r5x96.workers.dev
-      - worker-wispy-art-4a4f.zz4qb6-6.workers.dev
-      - worker-morning-frost-9100.5uxbq11j.workers.dev
+      - 🐔 背带裤-1
+      - 🐔 背带裤-2
+      - 🐔 背带裤-3
+      - 🐔 背带裤-4
+      - 🐔 背带裤-5
+      - 🐔 背带裤-6
+      - 🐔 背带裤-7
+      - 🐔 背带裤-8
+      - 🐔 背带裤-9
+      - 🐔 背带裤-10
+      - 🐔 背带裤-11
+      - 🐔 背带裤-12
+      - 🐔 背带裤-13
+      - 🐔 背带裤-14
+      - 🐔 背带裤-15
+      - 🐔 背带裤-16
+      - 🐔 背带裤-17
+      - 🐔 背带裤-18
+      - 🐔 背带裤-19
+      - 🐔 背带裤-20
+      - 🐔 背带裤-21
+      - 🐔 背带裤-22
+      - 🐔 背带裤-23
+      - 🐔 背带裤-24
+      - 🐔 背带裤-25
+      - 🐔 背带裤-26
+      - 🐔 背带裤-27
+      - 🐔 背带裤-28
+      - 🐔 背带裤-29
+      - 🐔 背带裤-30
+      - 🐔 背带裤-31
+      - 🐔 背带裤-32
+      - 🐔 背带裤-34
+      - 🐔 背带裤-35
+      - 🐔 背带裤-36
+      - 🐔 背带裤-37
+      - 🐔 背带裤-38
+      - 🐔 背带裤-39
+      - 🐔 背带裤-40
+      - 🐔 背带裤-41
+      - 🐔 背带裤-42
+      - 🐔 背带裤-43
+      - 🐔 背带裤-45
+      - 🐔 背带裤-46
+      - 🐔 背带裤-47
+      - 🐔 背带裤-48
+      - 🐔 背带裤-49
+      - 🐔 背带裤-50
+      - 🐔 背带裤-51
+      - 🐔 背带裤-52
+      - 🐔 背带裤-53
+      - 🐔 背带裤-54
+      - 🐔 背带裤-55
+      - 🐔 背带裤-56
+      - 🐔 背带裤-57
+      - 🐔 背带裤-58
+      - 🐔 背带裤-59
+      - 🐔 背带裤-60
+      - 🐔 背带裤-61
+      - 🐔 背带裤-62
+      - 🐔 背带裤-63
+      - 🐔 背带裤-64
+      - 🐔 背带裤-65
+      - 🐔 背带裤-66
+      - 🐔 背带裤-67
+      - 🐔 背带裤-68
+      - 🐔 背带裤-69
+      - 🐔 背带裤-70
+      - 🐔 背带裤-72
+      - 🐔 背带裤-73
+      - 🐔 背带裤-74
+      - 🐔 背带裤-75
+      - 🐔 背带裤-76
+      - 🐔 背带裤-77
+      - 🐔 背带裤-78
+      - 🐔 背带裤-79
+      - 🐔 背带裤-80
+      - 🐔 背带裤-81
+      - 🐔 背带裤-82
+      - 🐔 背带裤-83
+      - 🐔 背带裤-84
+      - 🐔 背带裤-85
+      - 🐔 背带裤-86
+      - 🐔 背带裤-87
+      - 🐔 背带裤-88
+      - 🐔 背带裤-89
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - worker-withered-river-e41b.1bbt8sxd.workers.dev
-      - verus.a1440585422.workers.dev
-      - worker-morning-field-dd88.44tuy5qq-b7a.workers.dev
-      - worker-muddy-pine-128e.44tuy5qq.workers.dev
-      - worker-misty-firefly-7ad5.8o0wqvsk.workers.dev
-      - worker-odd-sun-0498.na1-v33q.workers.dev
-      - worker-shrill-term-9c1e.ssrhqtck.workers.dev
-      - worker-fancy-sunset-9b78.k56bjd90.workers.dev
-      - worker-holy-waterfall-6a2f.7u7qtv3n.workers.dev
-      - worker-orange-field-d5c6.uw-uef2k.workers.dev
-      - worker-small-star-5886.s32r5x96.workers.dev
-      - worker-wispy-art-4a4f.zz4qb6-6.workers.dev
-      - worker-morning-frost-9100.5uxbq11j.workers.dev
+      - 🐔 背带裤-1
+      - 🐔 背带裤-2
+      - 🐔 背带裤-3
+      - 🐔 背带裤-4
+      - 🐔 背带裤-5
+      - 🐔 背带裤-6
+      - 🐔 背带裤-7
+      - 🐔 背带裤-8
+      - 🐔 背带裤-9
+      - 🐔 背带裤-10
+      - 🐔 背带裤-11
+      - 🐔 背带裤-12
+      - 🐔 背带裤-13
+      - 🐔 背带裤-14
+      - 🐔 背带裤-15
+      - 🐔 背带裤-16
+      - 🐔 背带裤-17
+      - 🐔 背带裤-18
+      - 🐔 背带裤-19
+      - 🐔 背带裤-20
+      - 🐔 背带裤-21
+      - 🐔 背带裤-22
+      - 🐔 背带裤-23
+      - 🐔 背带裤-24
+      - 🐔 背带裤-25
+      - 🐔 背带裤-26
+      - 🐔 背带裤-27
+      - 🐔 背带裤-28
+      - 🐔 背带裤-29
+      - 🐔 背带裤-30
+      - 🐔 背带裤-31
+      - 🐔 背带裤-32
+      - 🐔 背带裤-34
+      - 🐔 背带裤-35
+      - 🐔 背带裤-36
+      - 🐔 背带裤-37
+      - 🐔 背带裤-38
+      - 🐔 背带裤-39
+      - 🐔 背带裤-40
+      - 🐔 背带裤-41
+      - 🐔 背带裤-42
+      - 🐔 背带裤-43
+      - 🐔 背带裤-45
+      - 🐔 背带裤-46
+      - 🐔 背带裤-47
+      - 🐔 背带裤-48
+      - 🐔 背带裤-49
+      - 🐔 背带裤-50
+      - 🐔 背带裤-51
+      - 🐔 背带裤-52
+      - 🐔 背带裤-53
+      - 🐔 背带裤-54
+      - 🐔 背带裤-55
+      - 🐔 背带裤-56
+      - 🐔 背带裤-57
+      - 🐔 背带裤-58
+      - 🐔 背带裤-59
+      - 🐔 背带裤-60
+      - 🐔 背带裤-61
+      - 🐔 背带裤-62
+      - 🐔 背带裤-63
+      - 🐔 背带裤-64
+      - 🐔 背带裤-65
+      - 🐔 背带裤-66
+      - 🐔 背带裤-67
+      - 🐔 背带裤-68
+      - 🐔 背带裤-69
+      - 🐔 背带裤-70
+      - 🐔 背带裤-72
+      - 🐔 背带裤-73
+      - 🐔 背带裤-74
+      - 🐔 背带裤-75
+      - 🐔 背带裤-76
+      - 🐔 背带裤-77
+      - 🐔 背带裤-78
+      - 🐔 背带裤-79
+      - 🐔 背带裤-80
+      - 🐔 背带裤-81
+      - 🐔 背带裤-82
+      - 🐔 背带裤-83
+      - 🐔 背带裤-84
+      - 🐔 背带裤-85
+      - 🐔 背带裤-86
+      - 🐔 背带裤-87
+      - 🐔 背带裤-88
+      - 🐔 背带裤-89
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - worker-withered-river-e41b.1bbt8sxd.workers.dev
-      - verus.a1440585422.workers.dev
-      - worker-morning-field-dd88.44tuy5qq-b7a.workers.dev
-      - worker-muddy-pine-128e.44tuy5qq.workers.dev
-      - worker-misty-firefly-7ad5.8o0wqvsk.workers.dev
-      - worker-odd-sun-0498.na1-v33q.workers.dev
-      - worker-shrill-term-9c1e.ssrhqtck.workers.dev
-      - worker-fancy-sunset-9b78.k56bjd90.workers.dev
-      - worker-holy-waterfall-6a2f.7u7qtv3n.workers.dev
-      - worker-orange-field-d5c6.uw-uef2k.workers.dev
-      - worker-small-star-5886.s32r5x96.workers.dev
-      - worker-wispy-art-4a4f.zz4qb6-6.workers.dev
-      - worker-morning-frost-9100.5uxbq11j.workers.dev
+      - 🐔 背带裤-1
+      - 🐔 背带裤-2
+      - 🐔 背带裤-3
+      - 🐔 背带裤-4
+      - 🐔 背带裤-5
+      - 🐔 背带裤-6
+      - 🐔 背带裤-7
+      - 🐔 背带裤-8
+      - 🐔 背带裤-9
+      - 🐔 背带裤-10
+      - 🐔 背带裤-11
+      - 🐔 背带裤-12
+      - 🐔 背带裤-13
+      - 🐔 背带裤-14
+      - 🐔 背带裤-15
+      - 🐔 背带裤-16
+      - 🐔 背带裤-17
+      - 🐔 背带裤-18
+      - 🐔 背带裤-19
+      - 🐔 背带裤-20
+      - 🐔 背带裤-21
+      - 🐔 背带裤-22
+      - 🐔 背带裤-23
+      - 🐔 背带裤-24
+      - 🐔 背带裤-25
+      - 🐔 背带裤-26
+      - 🐔 背带裤-27
+      - 🐔 背带裤-28
+      - 🐔 背带裤-29
+      - 🐔 背带裤-30
+      - 🐔 背带裤-31
+      - 🐔 背带裤-32
+      - 🐔 背带裤-34
+      - 🐔 背带裤-35
+      - 🐔 背带裤-36
+      - 🐔 背带裤-37
+      - 🐔 背带裤-38
+      - 🐔 背带裤-39
+      - 🐔 背带裤-40
+      - 🐔 背带裤-41
+      - 🐔 背带裤-42
+      - 🐔 背带裤-43
+      - 🐔 背带裤-45
+      - 🐔 背带裤-46
+      - 🐔 背带裤-47
+      - 🐔 背带裤-48
+      - 🐔 背带裤-49
+      - 🐔 背带裤-50
+      - 🐔 背带裤-51
+      - 🐔 背带裤-52
+      - 🐔 背带裤-53
+      - 🐔 背带裤-54
+      - 🐔 背带裤-55
+      - 🐔 背带裤-56
+      - 🐔 背带裤-57
+      - 🐔 背带裤-58
+      - 🐔 背带裤-59
+      - 🐔 背带裤-60
+      - 🐔 背带裤-61
+      - 🐔 背带裤-62
+      - 🐔 背带裤-63
+      - 🐔 背带裤-64
+      - 🐔 背带裤-65
+      - 🐔 背带裤-66
+      - 🐔 背带裤-67
+      - 🐔 背带裤-68
+      - 🐔 背带裤-69
+      - 🐔 背带裤-70
+      - 🐔 背带裤-72
+      - 🐔 背带裤-73
+      - 🐔 背带裤-74
+      - 🐔 背带裤-75
+      - 🐔 背带裤-76
+      - 🐔 背带裤-77
+      - 🐔 背带裤-78
+      - 🐔 背带裤-79
+      - 🐔 背带裤-80
+      - 🐔 背带裤-81
+      - 🐔 背带裤-82
+      - 🐔 背带裤-83
+      - 🐔 背带裤-84
+      - 🐔 背带裤-85
+      - 🐔 背带裤-86
+      - 🐔 背带裤-87
+      - 🐔 背带裤-88
+      - 🐔 背带裤-89
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - worker-withered-river-e41b.1bbt8sxd.workers.dev
-      - verus.a1440585422.workers.dev
-      - worker-morning-field-dd88.44tuy5qq-b7a.workers.dev
-      - worker-muddy-pine-128e.44tuy5qq.workers.dev
-      - worker-misty-firefly-7ad5.8o0wqvsk.workers.dev
-      - worker-odd-sun-0498.na1-v33q.workers.dev
-      - worker-shrill-term-9c1e.ssrhqtck.workers.dev
-      - worker-fancy-sunset-9b78.k56bjd90.workers.dev
-      - worker-holy-waterfall-6a2f.7u7qtv3n.workers.dev
-      - worker-orange-field-d5c6.uw-uef2k.workers.dev
-      - worker-small-star-5886.s32r5x96.workers.dev
-      - worker-wispy-art-4a4f.zz4qb6-6.workers.dev
-      - worker-morning-frost-9100.5uxbq11j.workers.dev
+      - 🐔 背带裤-1
+      - 🐔 背带裤-2
+      - 🐔 背带裤-3
+      - 🐔 背带裤-4
+      - 🐔 背带裤-5
+      - 🐔 背带裤-6
+      - 🐔 背带裤-7
+      - 🐔 背带裤-8
+      - 🐔 背带裤-9
+      - 🐔 背带裤-10
+      - 🐔 背带裤-11
+      - 🐔 背带裤-12
+      - 🐔 背带裤-13
+      - 🐔 背带裤-14
+      - 🐔 背带裤-15
+      - 🐔 背带裤-16
+      - 🐔 背带裤-17
+      - 🐔 背带裤-18
+      - 🐔 背带裤-19
+      - 🐔 背带裤-20
+      - 🐔 背带裤-21
+      - 🐔 背带裤-22
+      - 🐔 背带裤-23
+      - 🐔 背带裤-24
+      - 🐔 背带裤-25
+      - 🐔 背带裤-26
+      - 🐔 背带裤-27
+      - 🐔 背带裤-28
+      - 🐔 背带裤-29
+      - 🐔 背带裤-30
+      - 🐔 背带裤-31
+      - 🐔 背带裤-32
+      - 🐔 背带裤-34
+      - 🐔 背带裤-35
+      - 🐔 背带裤-36
+      - 🐔 背带裤-37
+      - 🐔 背带裤-38
+      - 🐔 背带裤-39
+      - 🐔 背带裤-40
+      - 🐔 背带裤-41
+      - 🐔 背带裤-42
+      - 🐔 背带裤-43
+      - 🐔 背带裤-45
+      - 🐔 背带裤-46
+      - 🐔 背带裤-47
+      - 🐔 背带裤-48
+      - 🐔 背带裤-49
+      - 🐔 背带裤-50
+      - 🐔 背带裤-51
+      - 🐔 背带裤-52
+      - 🐔 背带裤-53
+      - 🐔 背带裤-54
+      - 🐔 背带裤-55
+      - 🐔 背带裤-56
+      - 🐔 背带裤-57
+      - 🐔 背带裤-58
+      - 🐔 背带裤-59
+      - 🐔 背带裤-60
+      - 🐔 背带裤-61
+      - 🐔 背带裤-62
+      - 🐔 背带裤-63
+      - 🐔 背带裤-64
+      - 🐔 背带裤-65
+      - 🐔 背带裤-66
+      - 🐔 背带裤-67
+      - 🐔 背带裤-68
+      - 🐔 背带裤-69
+      - 🐔 背带裤-70
+      - 🐔 背带裤-72
+      - 🐔 背带裤-73
+      - 🐔 背带裤-74
+      - 🐔 背带裤-75
+      - 🐔 背带裤-76
+      - 🐔 背带裤-77
+      - 🐔 背带裤-78
+      - 🐔 背带裤-79
+      - 🐔 背带裤-80
+      - 🐔 背带裤-81
+      - 🐔 背带裤-82
+      - 🐔 背带裤-83
+      - 🐔 背带裤-84
+      - 🐔 背带裤-85
+      - 🐔 背带裤-86
+      - 🐔 背带裤-87
+      - 🐔 背带裤-88
+      - 🐔 背带裤-89
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - worker-withered-river-e41b.1bbt8sxd.workers.dev
-      - verus.a1440585422.workers.dev
-      - worker-morning-field-dd88.44tuy5qq-b7a.workers.dev
-      - worker-muddy-pine-128e.44tuy5qq.workers.dev
-      - worker-misty-firefly-7ad5.8o0wqvsk.workers.dev
-      - worker-odd-sun-0498.na1-v33q.workers.dev
-      - worker-shrill-term-9c1e.ssrhqtck.workers.dev
-      - worker-fancy-sunset-9b78.k56bjd90.workers.dev
-      - worker-holy-waterfall-6a2f.7u7qtv3n.workers.dev
-      - worker-orange-field-d5c6.uw-uef2k.workers.dev
-      - worker-small-star-5886.s32r5x96.workers.dev
-      - worker-wispy-art-4a4f.zz4qb6-6.workers.dev
-      - worker-morning-frost-9100.5uxbq11j.workers.dev
+      - 🐔 背带裤-1
+      - 🐔 背带裤-2
+      - 🐔 背带裤-3
+      - 🐔 背带裤-4
+      - 🐔 背带裤-5
+      - 🐔 背带裤-6
+      - 🐔 背带裤-7
+      - 🐔 背带裤-8
+      - 🐔 背带裤-9
+      - 🐔 背带裤-10
+      - 🐔 背带裤-11
+      - 🐔 背带裤-12
+      - 🐔 背带裤-13
+      - 🐔 背带裤-14
+      - 🐔 背带裤-15
+      - 🐔 背带裤-16
+      - 🐔 背带裤-17
+      - 🐔 背带裤-18
+      - 🐔 背带裤-19
+      - 🐔 背带裤-20
+      - 🐔 背带裤-21
+      - 🐔 背带裤-22
+      - 🐔 背带裤-23
+      - 🐔 背带裤-24
+      - 🐔 背带裤-25
+      - 🐔 背带裤-26
+      - 🐔 背带裤-27
+      - 🐔 背带裤-28
+      - 🐔 背带裤-29
+      - 🐔 背带裤-30
+      - 🐔 背带裤-31
+      - 🐔 背带裤-32
+      - 🐔 背带裤-34
+      - 🐔 背带裤-35
+      - 🐔 背带裤-36
+      - 🐔 背带裤-37
+      - 🐔 背带裤-38
+      - 🐔 背带裤-39
+      - 🐔 背带裤-40
+      - 🐔 背带裤-41
+      - 🐔 背带裤-42
+      - 🐔 背带裤-43
+      - 🐔 背带裤-45
+      - 🐔 背带裤-46
+      - 🐔 背带裤-47
+      - 🐔 背带裤-48
+      - 🐔 背带裤-49
+      - 🐔 背带裤-50
+      - 🐔 背带裤-51
+      - 🐔 背带裤-52
+      - 🐔 背带裤-53
+      - 🐔 背带裤-54
+      - 🐔 背带裤-55
+      - 🐔 背带裤-56
+      - 🐔 背带裤-57
+      - 🐔 背带裤-58
+      - 🐔 背带裤-59
+      - 🐔 背带裤-60
+      - 🐔 背带裤-61
+      - 🐔 背带裤-62
+      - 🐔 背带裤-63
+      - 🐔 背带裤-64
+      - 🐔 背带裤-65
+      - 🐔 背带裤-66
+      - 🐔 背带裤-67
+      - 🐔 背带裤-68
+      - 🐔 背带裤-69
+      - 🐔 背带裤-70
+      - 🐔 背带裤-72
+      - 🐔 背带裤-73
+      - 🐔 背带裤-74
+      - 🐔 背带裤-75
+      - 🐔 背带裤-76
+      - 🐔 背带裤-77
+      - 🐔 背带裤-78
+      - 🐔 背带裤-79
+      - 🐔 背带裤-80
+      - 🐔 背带裤-81
+      - 🐔 背带裤-82
+      - 🐔 背带裤-83
+      - 🐔 背带裤-84
+      - 🐔 背带裤-85
+      - 🐔 背带裤-86
+      - 🐔 背带裤-87
+      - 🐔 背带裤-88
+      - 🐔 背带裤-89
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - worker-withered-river-e41b.1bbt8sxd.workers.dev
-      - verus.a1440585422.workers.dev
-      - worker-morning-field-dd88.44tuy5qq-b7a.workers.dev
-      - worker-muddy-pine-128e.44tuy5qq.workers.dev
-      - worker-misty-firefly-7ad5.8o0wqvsk.workers.dev
-      - worker-odd-sun-0498.na1-v33q.workers.dev
-      - worker-shrill-term-9c1e.ssrhqtck.workers.dev
-      - worker-fancy-sunset-9b78.k56bjd90.workers.dev
-      - worker-holy-waterfall-6a2f.7u7qtv3n.workers.dev
-      - worker-orange-field-d5c6.uw-uef2k.workers.dev
-      - worker-small-star-5886.s32r5x96.workers.dev
-      - worker-wispy-art-4a4f.zz4qb6-6.workers.dev
-      - worker-morning-frost-9100.5uxbq11j.workers.dev
+      - 🐔 背带裤-1
+      - 🐔 背带裤-2
+      - 🐔 背带裤-3
+      - 🐔 背带裤-4
+      - 🐔 背带裤-5
+      - 🐔 背带裤-6
+      - 🐔 背带裤-7
+      - 🐔 背带裤-8
+      - 🐔 背带裤-9
+      - 🐔 背带裤-10
+      - 🐔 背带裤-11
+      - 🐔 背带裤-12
+      - 🐔 背带裤-13
+      - 🐔 背带裤-14
+      - 🐔 背带裤-15
+      - 🐔 背带裤-16
+      - 🐔 背带裤-17
+      - 🐔 背带裤-18
+      - 🐔 背带裤-19
+      - 🐔 背带裤-20
+      - 🐔 背带裤-21
+      - 🐔 背带裤-22
+      - 🐔 背带裤-23
+      - 🐔 背带裤-24
+      - 🐔 背带裤-25
+      - 🐔 背带裤-26
+      - 🐔 背带裤-27
+      - 🐔 背带裤-28
+      - 🐔 背带裤-29
+      - 🐔 背带裤-30
+      - 🐔 背带裤-31
+      - 🐔 背带裤-32
+      - 🐔 背带裤-34
+      - 🐔 背带裤-35
+      - 🐔 背带裤-36
+      - 🐔 背带裤-37
+      - 🐔 背带裤-38
+      - 🐔 背带裤-39
+      - 🐔 背带裤-40
+      - 🐔 背带裤-41
+      - 🐔 背带裤-42
+      - 🐔 背带裤-43
+      - 🐔 背带裤-45
+      - 🐔 背带裤-46
+      - 🐔 背带裤-47
+      - 🐔 背带裤-48
+      - 🐔 背带裤-49
+      - 🐔 背带裤-50
+      - 🐔 背带裤-51
+      - 🐔 背带裤-52
+      - 🐔 背带裤-53
+      - 🐔 背带裤-54
+      - 🐔 背带裤-55
+      - 🐔 背带裤-56
+      - 🐔 背带裤-57
+      - 🐔 背带裤-58
+      - 🐔 背带裤-59
+      - 🐔 背带裤-60
+      - 🐔 背带裤-61
+      - 🐔 背带裤-62
+      - 🐔 背带裤-63
+      - 🐔 背带裤-64
+      - 🐔 背带裤-65
+      - 🐔 背带裤-66
+      - 🐔 背带裤-67
+      - 🐔 背带裤-68
+      - 🐔 背带裤-69
+      - 🐔 背带裤-70
+      - 🐔 背带裤-72
+      - 🐔 背带裤-73
+      - 🐔 背带裤-74
+      - 🐔 背带裤-75
+      - 🐔 背带裤-76
+      - 🐔 背带裤-77
+      - 🐔 背带裤-78
+      - 🐔 背带裤-79
+      - 🐔 背带裤-80
+      - 🐔 背带裤-81
+      - 🐔 背带裤-82
+      - 🐔 背带裤-83
+      - 🐔 背带裤-84
+      - 🐔 背带裤-85
+      - 🐔 背带裤-86
+      - 🐔 背带裤-87
+      - 🐔 背带裤-88
+      - 🐔 背带裤-89
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -232,19 +742,92 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - worker-withered-river-e41b.1bbt8sxd.workers.dev
-      - verus.a1440585422.workers.dev
-      - worker-morning-field-dd88.44tuy5qq-b7a.workers.dev
-      - worker-muddy-pine-128e.44tuy5qq.workers.dev
-      - worker-misty-firefly-7ad5.8o0wqvsk.workers.dev
-      - worker-odd-sun-0498.na1-v33q.workers.dev
-      - worker-shrill-term-9c1e.ssrhqtck.workers.dev
-      - worker-fancy-sunset-9b78.k56bjd90.workers.dev
-      - worker-holy-waterfall-6a2f.7u7qtv3n.workers.dev
-      - worker-orange-field-d5c6.uw-uef2k.workers.dev
-      - worker-small-star-5886.s32r5x96.workers.dev
-      - worker-wispy-art-4a4f.zz4qb6-6.workers.dev
-      - worker-morning-frost-9100.5uxbq11j.workers.dev
+      - 🐔 背带裤-1
+      - 🐔 背带裤-2
+      - 🐔 背带裤-3
+      - 🐔 背带裤-4
+      - 🐔 背带裤-5
+      - 🐔 背带裤-6
+      - 🐔 背带裤-7
+      - 🐔 背带裤-8
+      - 🐔 背带裤-9
+      - 🐔 背带裤-10
+      - 🐔 背带裤-11
+      - 🐔 背带裤-12
+      - 🐔 背带裤-13
+      - 🐔 背带裤-14
+      - 🐔 背带裤-15
+      - 🐔 背带裤-16
+      - 🐔 背带裤-17
+      - 🐔 背带裤-18
+      - 🐔 背带裤-19
+      - 🐔 背带裤-20
+      - 🐔 背带裤-21
+      - 🐔 背带裤-22
+      - 🐔 背带裤-23
+      - 🐔 背带裤-24
+      - 🐔 背带裤-25
+      - 🐔 背带裤-26
+      - 🐔 背带裤-27
+      - 🐔 背带裤-28
+      - 🐔 背带裤-29
+      - 🐔 背带裤-30
+      - 🐔 背带裤-31
+      - 🐔 背带裤-32
+      - 🐔 背带裤-34
+      - 🐔 背带裤-35
+      - 🐔 背带裤-36
+      - 🐔 背带裤-37
+      - 🐔 背带裤-38
+      - 🐔 背带裤-39
+      - 🐔 背带裤-40
+      - 🐔 背带裤-41
+      - 🐔 背带裤-42
+      - 🐔 背带裤-43
+      - 🐔 背带裤-45
+      - 🐔 背带裤-46
+      - 🐔 背带裤-47
+      - 🐔 背带裤-48
+      - 🐔 背带裤-49
+      - 🐔 背带裤-50
+      - 🐔 背带裤-51
+      - 🐔 背带裤-52
+      - 🐔 背带裤-53
+      - 🐔 背带裤-54
+      - 🐔 背带裤-55
+      - 🐔 背带裤-56
+      - 🐔 背带裤-57
+      - 🐔 背带裤-58
+      - 🐔 背带裤-59
+      - 🐔 背带裤-60
+      - 🐔 背带裤-61
+      - 🐔 背带裤-62
+      - 🐔 背带裤-63
+      - 🐔 背带裤-64
+      - 🐔 背带裤-65
+      - 🐔 背带裤-66
+      - 🐔 背带裤-67
+      - 🐔 背带裤-68
+      - 🐔 背带裤-69
+      - 🐔 背带裤-70
+      - 🐔 背带裤-72
+      - 🐔 背带裤-73
+      - 🐔 背带裤-74
+      - 🐔 背带裤-75
+      - 🐔 背带裤-76
+      - 🐔 背带裤-77
+      - 🐔 背带裤-78
+      - 🐔 背带裤-79
+      - 🐔 背带裤-80
+      - 🐔 背带裤-81
+      - 🐔 背带裤-82
+      - 🐔 背带裤-83
+      - 🐔 背带裤-84
+      - 🐔 背带裤-85
+      - 🐔 背带裤-86
+      - 🐔 背带裤-87
+      - 🐔 背带裤-88
+      - 🐔 背带裤-89
 
 rules:
 # 本地/局域网地址
