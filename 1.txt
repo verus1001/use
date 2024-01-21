@@ -1,10 +1,11 @@
 ####################################
 # 创建者：v2rayse.com
-# 客户端：Clash
-# 创建时间：2024-01-16 21:17:01
+# 客户端：Clash.Meta
+# 创建时间：2024-01-21 18:02:58
 # 使用模版：V2RaySE 默认模版
-# 节点数量：86
+# 节点数量：99
 ####################################
+# !!当前配置文件请使用基于 Clash.Meta 内核程序
 mixed-port: 7890
 allow-lan: true
 log-level: info
@@ -171,6 +172,19 @@ proxies:
   - {"name":"🐔 背带裤-87","type":"trojan","server":"104.16.192.135","port":443,"udp":true,"password":"f0eb8c92ce8946aaba856569cff1a16b","sni":"jobscareertoday.com","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"6b777a91","headers":{"host":"jobscareertoday.com"}}}
   - {"name":"🐔 背带裤-88","type":"trojan","server":"104.16.192.159","port":443,"udp":true,"password":"cb1f26aa437d4bfa9b841d28503ce8cc","sni":"jobsapplyworld.com","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"6b777a91","headers":{"host":"jobsapplyworld.com"}}}
   - {"name":"🐔 背带裤-89","type":"trojan","server":"104.16.192.151","port":443,"udp":true,"password":"71409d3e488548e8bb076d229778f008","sni":"jobsapplyworld.com","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"6b777a91","headers":{"host":"jobsapplyworld.com"}}}
+  - {"name":"worker-withered-river-e41b.1bbt8sxd.workers.dev","type":"vless","server":"www.4399.com","port":8880,"uuid":"af1cba0e-6de5-4973-8eb0-c73732c7b9b8","tls":false,"servername":"worker-withered-river-e41b.1bbt8sxd.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048"}}
+  - {"name":"verus.a1440585422.workers.dev","type":"vless","server":"www.visa.com","port":8880,"uuid":"a6b9501e-0376-492e-be09-feedc7633c42","tls":false,"servername":"verus.a1440585422.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048"}}
+  - {"name":"worker-morning-field-dd88.44tuy5qq-b7a.workers.dev","type":"vless","server":"www.bing.com","port":8880,"uuid":"1a5fec2b-cc10-4026-889b-3c172df94eea","tls":false,"servername":"worker-morning-field-dd88.44tuy5qq-b7a.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048"}}
+  - {"name":"worker-muddy-pine-128e.44tuy5qq.workers.dev","type":"vless","server":"www.so.com","port":8880,"uuid":"bdf81467-f3c0-4abc-ab4f-0b2873d33fdd","tls":false,"servername":"worker-muddy-pine-128e.44tuy5qq.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048"}}
+  - {"name":"worker-misty-firefly-7ad5.8o0wqvsk.workers.dev","type":"vless","server":"www.qq.com","port":8880,"uuid":"6225efd1-7675-48ff-b19e-7b2a59ee6418","tls":false,"servername":"worker-misty-firefly-7ad5.8o0wqvsk.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048"}}
+  - {"name":"worker-odd-sun-0498.na1-v33q.workers.dev","type":"vless","server":"www.ifeng.com","port":8880,"uuid":"cfd923a8-2af0-454b-9f1f-80ad07d48550","tls":false,"servername":"worker-odd-sun-0498.na1-v33q.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048"}}
+  - {"name":"worker-shrill-term-9c1e.ssrhqtck.workers.dev","type":"vless","server":"www.bing.com","port":8880,"uuid":"49281036-2b34-478d-b68a-4a1cea222cae","tls":false,"servername":"worker-shrill-term-9c1e.ssrhqtck.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048"}}
+  - {"name":"worker-fancy-sunset-9b78.k56bjd90.workers.dev","type":"vless","server":"www.bilibili.com","port":8880,"uuid":"b2304602-f642-46c9-bdb3-a0e7b9ecbbf9","tls":false,"servername":"worker-fancy-sunset-9b78.k56bjd90.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048"}}
+  - {"name":"worker-holy-waterfall-6a2f.7u7qtv3n.workers.dev","type":"vless","server":"www.qidian.com","port":8880,"uuid":"c5a4d66a-2714-4d70-8d09-8b74ab341442","tls":false,"servername":"worker-holy-waterfall-6a2f.7u7qtv3n.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048"}}
+  - {"name":"worker-orange-field-d5c6.uw-uef2k.workers.dev","type":"vless","server":"www.2345.com","port":8880,"uuid":"36f77539-adfe-405a-be05-4d4a268ee1f4","tls":false,"servername":"worker-orange-field-d5c6.uw-uef2k.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048"}}
+  - {"name":"worker-small-star-5886.s32r5x96.workers.dev","type":"vless","server":"www.1905.com","port":8880,"uuid":"4538816c-d08c-4fef-92cc-f7de9231c724","tls":false,"servername":"worker-small-star-5886.s32r5x96.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048"}}
+  - {"name":"worker-wispy-art-4a4f.zz4qb6-6.workers.dev","type":"vless","server":"www.zhihu.com","port":8880,"uuid":"5c25b5e1-5ef2-460d-b5e1-849cd85d3e49","tls":false,"servername":"worker-wispy-art-4a4f.zz4qb6-6.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048"}}
+  - {"name":"worker-morning-frost-9100.5uxbq11j.workers.dev","type":"vless","server":"www.ximalaya.com","port":8880,"uuid":"3b2a1645-0037-4adb-b336-c00bfaeb4ac3","tls":false,"servername":"worker-morning-frost-9100.5uxbq11j.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048"}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -263,6 +277,19 @@ proxy-groups:
       - 🐔 背带裤-87
       - 🐔 背带裤-88
       - 🐔 背带裤-89
+      - worker-withered-river-e41b.1bbt8sxd.workers.dev
+      - verus.a1440585422.workers.dev
+      - worker-morning-field-dd88.44tuy5qq-b7a.workers.dev
+      - worker-muddy-pine-128e.44tuy5qq.workers.dev
+      - worker-misty-firefly-7ad5.8o0wqvsk.workers.dev
+      - worker-odd-sun-0498.na1-v33q.workers.dev
+      - worker-shrill-term-9c1e.ssrhqtck.workers.dev
+      - worker-fancy-sunset-9b78.k56bjd90.workers.dev
+      - worker-holy-waterfall-6a2f.7u7qtv3n.workers.dev
+      - worker-orange-field-d5c6.uw-uef2k.workers.dev
+      - worker-small-star-5886.s32r5x96.workers.dev
+      - worker-wispy-art-4a4f.zz4qb6-6.workers.dev
+      - worker-morning-frost-9100.5uxbq11j.workers.dev
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -355,6 +382,19 @@ proxy-groups:
       - 🐔 背带裤-87
       - 🐔 背带裤-88
       - 🐔 背带裤-89
+      - worker-withered-river-e41b.1bbt8sxd.workers.dev
+      - verus.a1440585422.workers.dev
+      - worker-morning-field-dd88.44tuy5qq-b7a.workers.dev
+      - worker-muddy-pine-128e.44tuy5qq.workers.dev
+      - worker-misty-firefly-7ad5.8o0wqvsk.workers.dev
+      - worker-odd-sun-0498.na1-v33q.workers.dev
+      - worker-shrill-term-9c1e.ssrhqtck.workers.dev
+      - worker-fancy-sunset-9b78.k56bjd90.workers.dev
+      - worker-holy-waterfall-6a2f.7u7qtv3n.workers.dev
+      - worker-orange-field-d5c6.uw-uef2k.workers.dev
+      - worker-small-star-5886.s32r5x96.workers.dev
+      - worker-wispy-art-4a4f.zz4qb6-6.workers.dev
+      - worker-morning-frost-9100.5uxbq11j.workers.dev
   - name: 🌍 国外媒体
     type: select
     proxies:
@@ -447,6 +487,19 @@ proxy-groups:
       - 🐔 背带裤-87
       - 🐔 背带裤-88
       - 🐔 背带裤-89
+      - worker-withered-river-e41b.1bbt8sxd.workers.dev
+      - verus.a1440585422.workers.dev
+      - worker-morning-field-dd88.44tuy5qq-b7a.workers.dev
+      - worker-muddy-pine-128e.44tuy5qq.workers.dev
+      - worker-misty-firefly-7ad5.8o0wqvsk.workers.dev
+      - worker-odd-sun-0498.na1-v33q.workers.dev
+      - worker-shrill-term-9c1e.ssrhqtck.workers.dev
+      - worker-fancy-sunset-9b78.k56bjd90.workers.dev
+      - worker-holy-waterfall-6a2f.7u7qtv3n.workers.dev
+      - worker-orange-field-d5c6.uw-uef2k.workers.dev
+      - worker-small-star-5886.s32r5x96.workers.dev
+      - worker-wispy-art-4a4f.zz4qb6-6.workers.dev
+      - worker-morning-frost-9100.5uxbq11j.workers.dev
   - name: 📲 电报信息
     type: select
     proxies:
@@ -538,6 +591,19 @@ proxy-groups:
       - 🐔 背带裤-87
       - 🐔 背带裤-88
       - 🐔 背带裤-89
+      - worker-withered-river-e41b.1bbt8sxd.workers.dev
+      - verus.a1440585422.workers.dev
+      - worker-morning-field-dd88.44tuy5qq-b7a.workers.dev
+      - worker-muddy-pine-128e.44tuy5qq.workers.dev
+      - worker-misty-firefly-7ad5.8o0wqvsk.workers.dev
+      - worker-odd-sun-0498.na1-v33q.workers.dev
+      - worker-shrill-term-9c1e.ssrhqtck.workers.dev
+      - worker-fancy-sunset-9b78.k56bjd90.workers.dev
+      - worker-holy-waterfall-6a2f.7u7qtv3n.workers.dev
+      - worker-orange-field-d5c6.uw-uef2k.workers.dev
+      - worker-small-star-5886.s32r5x96.workers.dev
+      - worker-wispy-art-4a4f.zz4qb6-6.workers.dev
+      - worker-morning-frost-9100.5uxbq11j.workers.dev
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
@@ -629,6 +695,19 @@ proxy-groups:
       - 🐔 背带裤-87
       - 🐔 背带裤-88
       - 🐔 背带裤-89
+      - worker-withered-river-e41b.1bbt8sxd.workers.dev
+      - verus.a1440585422.workers.dev
+      - worker-morning-field-dd88.44tuy5qq-b7a.workers.dev
+      - worker-muddy-pine-128e.44tuy5qq.workers.dev
+      - worker-misty-firefly-7ad5.8o0wqvsk.workers.dev
+      - worker-odd-sun-0498.na1-v33q.workers.dev
+      - worker-shrill-term-9c1e.ssrhqtck.workers.dev
+      - worker-fancy-sunset-9b78.k56bjd90.workers.dev
+      - worker-holy-waterfall-6a2f.7u7qtv3n.workers.dev
+      - worker-orange-field-d5c6.uw-uef2k.workers.dev
+      - worker-small-star-5886.s32r5x96.workers.dev
+      - worker-wispy-art-4a4f.zz4qb6-6.workers.dev
+      - worker-morning-frost-9100.5uxbq11j.workers.dev
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -720,6 +799,19 @@ proxy-groups:
       - 🐔 背带裤-87
       - 🐔 背带裤-88
       - 🐔 背带裤-89
+      - worker-withered-river-e41b.1bbt8sxd.workers.dev
+      - verus.a1440585422.workers.dev
+      - worker-morning-field-dd88.44tuy5qq-b7a.workers.dev
+      - worker-muddy-pine-128e.44tuy5qq.workers.dev
+      - worker-misty-firefly-7ad5.8o0wqvsk.workers.dev
+      - worker-odd-sun-0498.na1-v33q.workers.dev
+      - worker-shrill-term-9c1e.ssrhqtck.workers.dev
+      - worker-fancy-sunset-9b78.k56bjd90.workers.dev
+      - worker-holy-waterfall-6a2f.7u7qtv3n.workers.dev
+      - worker-orange-field-d5c6.uw-uef2k.workers.dev
+      - worker-small-star-5886.s32r5x96.workers.dev
+      - worker-wispy-art-4a4f.zz4qb6-6.workers.dev
+      - worker-morning-frost-9100.5uxbq11j.workers.dev
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -828,6 +920,19 @@ proxy-groups:
       - 🐔 背带裤-87
       - 🐔 背带裤-88
       - 🐔 背带裤-89
+      - worker-withered-river-e41b.1bbt8sxd.workers.dev
+      - verus.a1440585422.workers.dev
+      - worker-morning-field-dd88.44tuy5qq-b7a.workers.dev
+      - worker-muddy-pine-128e.44tuy5qq.workers.dev
+      - worker-misty-firefly-7ad5.8o0wqvsk.workers.dev
+      - worker-odd-sun-0498.na1-v33q.workers.dev
+      - worker-shrill-term-9c1e.ssrhqtck.workers.dev
+      - worker-fancy-sunset-9b78.k56bjd90.workers.dev
+      - worker-holy-waterfall-6a2f.7u7qtv3n.workers.dev
+      - worker-orange-field-d5c6.uw-uef2k.workers.dev
+      - worker-small-star-5886.s32r5x96.workers.dev
+      - worker-wispy-art-4a4f.zz4qb6-6.workers.dev
+      - worker-morning-frost-9100.5uxbq11j.workers.dev
 
 rules:
 # 本地/局域网地址
